@@ -1,3 +1,5 @@
+package rentcar;
+
 public class Avante implements Car {
 
     private final double tripDistance;
@@ -13,6 +15,6 @@ public class Avante implements Car {
 
     @Override
     public String getName() {
-        return "Avante";
+        return "rentcar.Avante";
     }
 }

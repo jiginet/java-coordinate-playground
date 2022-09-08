@@ -1,3 +1,5 @@
+package rentcar;
+
 public class K5 implements Car {
 
     private final double tripDistance;
@@ -8,7 +10,7 @@ public class K5 implements Car {
 
     @Override
     public String getName() {
-        return "K5";
+        return "rentcar.K5";
     }
 
     @Override

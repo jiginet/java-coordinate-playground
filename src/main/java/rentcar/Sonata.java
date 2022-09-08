@@ -1,3 +1,5 @@
+package rentcar;
+
 public class Sonata implements Car {
 
     private final double tripDistance;
@@ -13,6 +15,6 @@ public class Sonata implements Car {
 
     @Override
     public String getName() {
-        return "Sonata";
+        return "rentcar.Sonata";
     }
 }
